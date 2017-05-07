@@ -3,4 +3,4 @@
 
 Make sure to run `bower install` to install dependencies. 
 
-And shrink / minify JS and CSS into a `dist` folder.
+And shrink / minify JS and CSS from the `src` folder into a `dist` folder.
