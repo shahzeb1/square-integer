@@ -1,0 +1,27 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir,
+    'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial,
+    sans-serif;
+}
+.intro-box {
+  grid-area: intro;
+}
+.contact-box {
+  grid-area: contact;
+}
+.showcase-box {
+  grid-area: showcase;
+  display: grid;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50vh;
+  grid-template-areas:
+    'intro showcase'
+    'contact showcase';
+}
+.email-button{
+    font-size: 30pt;
+}
